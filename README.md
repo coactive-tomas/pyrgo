@@ -22,7 +22,7 @@ Python project manager inspired in [Cargo](https://doc.rust-lang.org/cargo/).
 
 All behind a unified API.
 
-```bash
+```zsh
 Usage: pyrgo [OPTIONS] COMMAND [ARGS]...
 
   pyrgo. Python package manager.
@@ -36,6 +36,8 @@ Commands:
   build  Build project with `build`.
   check  Check code with `mypy`, `ruff` and `vulture`.
   clean  Clean project repository.
+  doc    Build a package's documentation with `pdoc`.
+  fix    Automatically fix lint warnings reported by `ruff`.
   fmt    Format code with `ruff`.
   lock   Lock project dependencies with `piptools`.
   new    Create a project.
